@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">aula02ChamandoActivity</string>
+    <string name="strMenu">Menu</string>
+    <string name="strTela1">Tela 1</string>
+    <string name="strTela2">Tela 2</string>
+</resources>

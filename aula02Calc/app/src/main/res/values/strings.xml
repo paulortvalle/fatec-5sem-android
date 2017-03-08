@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">aula02Calc</string>
+    <string name="strNumero">Numero</string>
+    <string name="btSoma">+</string>
+    <string name="btSubtrai">-</string>
+    <string name="btMultiplica">*</string>
+    <string name="btDivide">/</string>
+    <string name="lbResultado">Resultado</string>
+</resources>
