@@ -6,6 +6,13 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    /*
+    O objetivo desta aula é mostrar os diferentes ciclos de vida de
+    uma activity em Android. Cada um dos métodos do ciclo de vida é
+    herdado da classe AppCompatActivity por isso estão sofrendo a
+    sobrescrita de carga.
+    */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

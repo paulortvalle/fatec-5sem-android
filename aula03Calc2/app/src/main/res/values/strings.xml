@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">aula03Calc2</string>
+    <string name="strValor">Valor</string>
+    <string name="strSomar">Somar</string>
+    <string name="strSubtrair">Subtrair</string>
+    <string name="strMultiplicar">Multiplicar</string>
+    <string name="strDividir">Dividir</string>
+    <string name="title_activity_resultado">Resultado</string>
+    <string name="strResultado">Resultado:</string>
+    <string name="strVoltar">Voltar</string>
+</resources>

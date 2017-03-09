@@ -9,6 +9,12 @@ import android.widget.QuickContactBadge;
 
 public class MainActivity extends Activity {
 
+    /*
+    O objetivo desta aula é mostrar como instanciar e iniciar
+    Activities no Android. Note que, como as activities são
+    classes, o nome é case sensitive.
+    */
+
     private Button btMenuTela1;
     private Button btMenuTela2;
 
@@ -23,7 +29,10 @@ public class MainActivity extends Activity {
         btMenuTela1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // cria o objeto da classe Intent para a nova Activity
                 Intent it = new Intent(getBaseContext(),tela1.class);
+
+                // Inicia a nova Activity
                 startActivity(it);
             }
         });
@@ -31,7 +40,10 @@ public class MainActivity extends Activity {
         btMenuTela2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // cria o objeto da classe Intent para a nova Activity
                 Intent it = new Intent(getBaseContext(),Tela2.class);
+
+                // Inicia a nova Activity
                 startActivity(it);
             }
         });
